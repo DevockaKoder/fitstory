@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewKlientActivity">
+
+
+    <TableLayout
+        android:id="@+id/tabOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5sp">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="71dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/hint_new_klient"
+            android:textAlignment="center"
+            android:textColor="@color/priority"
+            android:textSize="22sp" />
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5sp">
+            <ImageView
+            android:id="@+id/select_klient_image"
+            android:layout_width="119dp"
+            android:layout_height="124dp"
+            android:layout_margin="5sp"
+            app:srcCompat="@drawable/photo"/>
+            <ImageView
+                android:id="@+id/select_klient_image_spina"
+                android:layout_width="119dp"
+                android:layout_height="124dp"
+                android:layout_margin="5sp"
+                app:srcCompat="@drawable/photo" />
+            <ImageView
+                android:id="@+id/select_klient_image_bok"
+                android:layout_width="119dp"
+                android:layout_height="124dp"
+                android:layout_margin="5sp"
+                app:srcCompat="@drawable/photo" />
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tabTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tabOne">
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5sp">
+        <EditText
+            android:id="@+id/klient_name"
+            android:layout_width="340dp"
+            android:layout_height="66dp"
+            android:background="@drawable/btn_map"
+            android:hint="@string/hint_name_klient"
+            android:inputType="textMultiLine"
+            android:fontFamily="@font/montserrat_semibold"
+            android:paddingStart="15dp" />
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5sp">
+        <EditText
+            android:id="@+id/klient_phone"
+            android:layout_width="340dp"
+            android:layout_height="66dp"
+            android:background="@drawable/btn_map"
+            android:hint="@string/hint_phone_klient"
+            android:inputType="phone"
+            android:paddingStart="15dp"
+            android:fontFamily="@font/montserrat_semibold"/>
+    </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:id="@+id/tabThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/tabTwo">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5sp"
+            >
+            <EditText
+                android:id="@+id/klient_age"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_map"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="@string/hint_age_klient"
+                android:inputType="textMultiLine"
+                android:paddingStart="15dp"
+                android:layout_margin="5sp"/>
+            <EditText
+                android:id="@+id/klient_weight"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_map"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="@string/hint_weight_klient"
+                android:inputType="number"
+                android:paddingStart="15dp"
+                tools:ignore="Autofill"
+                android:layout_margin="5sp"/>
+            <EditText
+                android:id="@+id/klient_growth"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="@drawable/btn_map"
+                android:fontFamily="@font/montserrat_semibold"
+                android:hint="@string/hint_growth_klient"
+                android:inputType="number"
+                android:paddingStart="15dp"
+                tools:ignore="Autofill"
+                android:layout_margin="5sp"/>
+        </TableRow>
+    </TableLayout>
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="15sp"
+        android:layout_below="@+id/tabThree">
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/add_new_client_btn"
+        android:layout_width="284dp"
+        android:layout_height="62dp"
+        android:background="@drawable/btn_save"
+        android:text="@string/btn_save" />
+    </TableRow>
+
+
+
+</RelativeLayout>

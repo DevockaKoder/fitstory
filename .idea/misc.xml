@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable/background_splash.xml" value="0.2546875" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable/btn_register.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable/btn_sign_in.xml" value="0.2546875" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.240625" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/drawable/spinner_item.xml" value="0.1828125" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/font/.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.15595716198125836" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.16700819672131148" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout-w936dp/input_file.xml" value="0.14515027322404372" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_calculate.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_calculater_calories.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_calculater_imt.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_calculater_tb.xml" value="0.21331521739130435" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_calculaters.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_card_klient.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_exercise_base.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_kalendar.xml" value="0.1265625" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_klient_calculate.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_klient_program.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_klients_list.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_main.xml" value="0.1631912964641886" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_map.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_new_klient.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_nutrition_program.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_photo_klient.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_program_first_day.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_program_three_day.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_program_two_day.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_ready_menu_klient.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_ready_program_klient.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_recipe_base.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_scrolling_klients.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_spisok.xml" value="0.152" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/activity_splash.xml" value="0.23777173913043478" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/app_bar_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/content_main.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/content_scrolling.xml" value="0.22146739130434784" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/fragment_program_first.xml" value="0.18070652173913043" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/input_file.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/input_file_recbase.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/klient_items_layout.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/list_klient_item.xml" value="0.4" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/menu_view.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/register_window.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/row_exercise.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/row_reciepes.xml" value="0.4" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/sign_in_window.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/spinner_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/toolbar.xml" value="0.1609375" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/trener_bar.xml" value="0.176" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/update_exbase.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/layout/update_recbase.xml" value="0.19746376811594202" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/menu/menu_ex.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/menu/menu_program.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/menu/menu_scrolling_klients.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/menu/options_menu.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/Downloads/DnevnikTrenera/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

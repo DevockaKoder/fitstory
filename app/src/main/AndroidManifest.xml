@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dnevniktrenera">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DnevnikTrenera">
+        <activity
+            android:name=".ReadyMenuKlient"
+            android:exported="false" />
+        <activity
+            android:name=".NutritionProgram"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeBase"
+            android:exported="false" />
+        <activity
+            android:name=".ReadyProgramKlient"
+            android:exported="false" />
+        <activity
+            android:name=".PhotoKlient"
+            android:exported="false" />
+        <activity
+            android:name=".KlientCalculate"
+            android:exported="false" />
+        <activity
+            android:name=".KlientProgram"
+            android:exported="false" />
+        <activity
+            android:name=".CardKlientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KlientsList"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseBase"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollingKlientsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scrolling_klients"
+            android:theme="@style/Theme.DnevnikTrenera.NoActionBar" />
+        <activity
+            android:name=".NewKlientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KalendarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpisokActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/content_create"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ReadyMenuKlient">
+
+    <LinearLayout
+        android:id="@+id/pdf_linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8492B1">
+        <include
+            android:id="@+id/menu_toolbar"
+            layout="@layout/app_bar_layout">
+        </include>
+        <!--Данные клиента-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
+</ScrollView>

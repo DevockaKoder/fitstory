@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KlientCalculate"
+    android:background="@color/background">
+
+
+    <include
+        android:id="@+id/klient_card_bar_layout_calc"
+        layout="@layout/app_bar_layout">
+
+    </include>
+
+    <TableLayout
+        android:id="@+id/tab2"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_below="@+id/klient_card_bar_layout_calc"
+        android:layout_marginTop="5sp"
+        android:gravity="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_imt"
+                android:layout_width="110dp"
+                android:layout_height="50sp"
+                android:background="@drawable/btn_imt"
+                android:onClick="FragmentsChanges"
+                android:text="№1" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_calories"
+                android:layout_width="110sp"
+                android:layout_height="50sp"
+                android:background="@drawable/btn_calories"
+                android:layout_marginStart="10dp"
+                android:onClick="FragmentsChanges" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btn_tb"
+                android:layout_width="110sp"
+                android:layout_height="50sp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/btn_tb"
+                android:onClick="FragmentsChanges" />
+
+        </TableRow>
+    </TableLayout>
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tab2"
+        android:layout_marginTop="5sp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity"
+    android:background="@color/background">
+
+    <include
+        android:id="@+id/trener_bar_layout"
+        layout="@layout/trener_bar" />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160sp">
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnSpisok"
+                android:layout_width="316dp"
+                android:layout_height="93dp"
+                android:background="@drawable/btn_klients" />
+
+        </TableRow>
+
+
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <ImageView
+            android:id="@+id/gant1"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            app:srcCompat="@drawable/gant1" />
+        </TableRow>
+
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnExBase"
+                android:layout_width="316dp"
+                android:layout_height="93dp"
+                android:background="@drawable/btn_ex"
+                android:outlineAmbientShadowColor="#F3FFFFFF" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/gant2"
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                app:srcCompat="@drawable/gant2" />
+        </TableRow>
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/btnRecBase"
+                android:layout_width="316dp"
+                android:layout_height="93dp"
+                android:background="@drawable/btn_recipe"
+                android:outlineAmbientShadowColor="#F3FFFFFF" />
+        </TableRow>
+
+        <TableRow android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/gant"
+                android:layout_width="200sp"
+                android:layout_height="200sp"
+                app:srcCompat="@drawable/gant_map"
+                android:visibility="gone"/>
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
+
+
+
+
+

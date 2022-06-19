@@ -1,0 +1,107 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.DnevnikTrenera" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="Theme.DnevnikTrenera.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Toolbar" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/toolbarStyle</item>
+        <item name="colorControlNormal">@color/teal_200</item>
+        <item name="android:titleTextStyle">@style/Toolbar.Title</item>
+        <item name="titleMarginTop">15sp</item>
+        <item name="buttonGravity"> center_vertical </item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:actionOverflowButtonStyle">@style/Toolbar.OverFlow</item>
+    </style>
+
+    <style name="Toolbar.OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/menu_icon</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_marginEnd">20sp</item>
+    </style>
+
+    <style name="Toolbar.Title" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="ToolbarMenu" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/toolbarStyle</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:titleTextStyle">@style/ToolbarMenu.Title</item>
+        <item name="titleMarginTop">15sp</item>
+        <item name="buttonGravity"> center_vertical </item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:actionOverflowButtonStyle">@style/ToolbarMenu.OverFlow</item>
+    </style>
+
+    <style name="ToolbarMenu.OverFlow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/overflow</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_marginEnd">20sp</item>
+    </style>
+
+    <style name="ToolbarMenu.Title" parent="Widget.AppCompat.Toolbar">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+
+    </style>
+
+    <style name="MyAlertDialogTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/teal_300</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="MyAlertDialogButtonStyle">
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/teal_300</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColorPrimary">@color/teal_300</item>
+        <item name="android:colorPrimary">@color/teal_300</item>
+        <item name="android:colorAccent">@color/teal_300</item>
+        <item name="android:background">@color/com_facebook_button_login_silver_background_color_pressed</item>
+    </style>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/teal_200</item>
+        <item name="android:colorAccent">@color/teal_300</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textAppearanceButton">@color/teal_300</item>
+        <item name="android:colorPrimaryDark">@color/teal_300</item>
+        <item name="android:colorPrimary">@color/teal_300</item>
+        <item name="android:colorActivatedHighlight">@color/teal_300</item>
+        <item name="android:colorControlNormal">@color/teal_300</item>
+        <item name="android:windowTitleStyle">@style/MyAlertDialogTitle</item>
+        <item name="android:colorButtonNormal">@color/teal_300</item>
+        <!--Смена цвета у кнопок действий-->
+        <item name="buttonBarNegativeButtonStyle">@style/MyAlertDialogButtonStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/MyAlertDialogButtonStyle</item>
+
+        <item name="android:windowTitleSize">30dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:buttonStyle">@style/MyAlertDialogButtonStyle</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+</resources>

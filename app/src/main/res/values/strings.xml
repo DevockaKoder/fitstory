@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FitStory</string>
+    <string name="appInName">FitStory</string>
+    <string name="appNameAutor">Приложение для ведения клиентов</string>
+    <string name="text_bottom">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Регистрация</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_pass">Пароль</string>
+    <string name="hint_name">Введите имя</string>
+    <string name="hint_phone">Введите номер</string>
+    <string name="hint_name_klient">Введите имя и фамилию клиента</string>
+    <string name="hint_phone_klient">Телефон</string>
+    <string name="hint_age_klient">Возраст</string>
+    <string name="hint_weight_klient">Вес</string>
+    <string name="hint_growth_klient">Рост</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_new_klient">Добавить нового клиента</string>
+    <string name="btn_spisok_klients">Перейти к списку клиентов</string>
+    <string name="btn_calc">Рассчитать калораж</string>
+    <string name="btn_all_klients">Все клиенты</string>
+    <string name="name">Имя</string>
+    <string name="age">Возраст: </string>
+    <string name="weight">Вес: </string>
+    <string name="growth">Рост: </string>
+    <string name="phone">Номер: </string>
+    <string name="title_activity_scrolling_klients">ScrollingKlientsActivity</string>
+    <string name="large_text">Why</string>
+    <string name="hint_new_klient">Добавьте три фотографии клиента
+        и введите его данные</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="calc">Калькуляторы</string>
+    <string name="program">Тренировки</string>
+    <string name="photo">Открыть фото</string>
+    <string name="spisok_klients">Список клиентов</string>
+    <string name="program_menu">Программа</string>
+    <string name="menu_menu">Меню</string>
+    <string name="exit_menu">Выход</string>
+</resources>

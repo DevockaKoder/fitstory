@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "61066263874",
+    "firebase_url": "https://dnevniktreneraapp-default-rtdb.firebaseio.com",
+    "project_id": "dnevniktreneraapp",
+    "storage_bucket": "dnevniktreneraapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61066263874:android:8db0ac8a43b63dc74edcdb",
+        "android_client_info": {
+          "package_name": "com.example.dnevniktrenera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61066263874-g4pht6semm73eq4tnhn8c874p9kru3ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHl4Nhc09GTCQAktjHeQka-lG9HgeV_R8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61066263874-g4pht6semm73eq4tnhn8c874p9kru3ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

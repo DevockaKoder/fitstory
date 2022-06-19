@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/klient_items_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <TextView
+            android:id="@+id/klient_items_age"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/klient_items_name"
+            android:layout_marginTop="-1dp"
+            android:text="@string/age"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <TextView
+            android:id="@+id/klient_items_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/klient_items_age"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="-1dp"
+            android:text="@string/weight"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <TextView
+            android:id="@+id/klient_items_growth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/klient_items_age"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="60dp"
+            android:text="@string/growth"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <TextView
+            android:id="@+id/klient_items_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/klient_items_growth"
+            android:text="@string/phone"
+            android:textAlignment="center"
+            android:layout_marginTop="-1dp"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:fontFamily="@font/montserrat_semibold"/>
+
+        <ImageView
+            android:id="@+id/klient_image_one"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/klient_items_phone"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/klient_image_two"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/klient_image_one"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/klient_image_three"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_below="@+id/klient_image_two"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="1dp"
+            android:scaleType="centerCrop" />
+
+        <Button
+            android:id="@+id/toRedactorKlients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

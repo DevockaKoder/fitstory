@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ProgramThreeDay">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="25sp"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginBottom="30sp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="50sp"
+                app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@color/priority"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65sp"
+                    android:text="Упражнение"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60sp"
+                    android:text="Повт"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:text="Подх"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:text="Вес"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+        </TableLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55sp"
+        >
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            >
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="130sp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:maxLines="1"
+                    android:text="1"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_one3"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3sp"
+                    android:spinnerMode="dropdown">
+
+                </Spinner>
+
+                <EditText
+                    android:id="@+id/povtor_one3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:inputType="number"
+                    android:text="15" />
+
+                <EditText
+                    android:id="@+id/podhod_one3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:inputType="number"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/ves_one3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:inputType="number"
+                    android:text="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:maxLines="1"
+                    android:text="2"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_two3"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3sp"
+                    android:spinnerMode="dropdown" />
+
+                <EditText
+                    android:id="@+id/povtor_two3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:inputType="number"
+                    android:text="15" />
+
+                <EditText
+                    android:id="@+id/podhod_two3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:inputType="number"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/ves_two3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:inputType="number"
+                    android:text="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:maxLines="4"
+                    android:text="3"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_three3"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3sp"
+                    android:spinnerMode="dropdown" />
+
+                <EditText
+                    android:id="@+id/povtor_three3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:inputType="number"
+                    android:text="15" />
+
+                <EditText
+                    android:id="@+id/podhod_three3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:inputType="number"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/ves_three3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:inputType="number"
+                    android:text="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:maxLines="1"
+                    android:text="4"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_four3"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3sp"
+                    android:spinnerMode="dropdown" />
+
+                <EditText
+                    android:id="@+id/povtor_four3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:inputType="number"
+                    android:text="15" />
+
+                <EditText
+                    android:id="@+id/podhod_four3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:inputType="number"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/ves_four3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:inputType="number"
+                    android:text="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:maxLines="1"
+                    android:text="5"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_five3"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3sp"
+                    android:spinnerMode="dropdown" />
+
+                <EditText
+                    android:id="@+id/povtor_five3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:inputType="number"
+                    android:text="15" />
+
+                <EditText
+                    android:id="@+id/podhod_five3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:inputType="number"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/ves_five3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:inputType="number"
+                    android:text="10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:maxLines="1"
+                    android:text="6"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/spinner_six3"
+                    android:layout_width="200sp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3sp"
+                    android:spinnerMode="dropdown" />
+
+                <EditText
+                    android:id="@+id/povtor_six3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10sp"
+                    android:inputType="number"
+                    android:text="15" />
+
+                <EditText
+                    android:id="@+id/podhod_six3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:inputType="number"
+                    android:text="3" />
+
+                <EditText
+                    android:id="@+id/ves_six3"
+                    android:layout_width="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5sp"
+                    android:layout_marginEnd="10sp"
+                    android:inputType="number"
+                    android:text="10" />
+            </TableRow>
+
+            <Button
+                android:id="@+id/btn_save_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="90sp"
+
+                android:layout_marginEnd="100sp"
+                android:background="#00FFFFFF"
+                android:text="Сохранить"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="@color/teal_200"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/tableLayout"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </TableLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
